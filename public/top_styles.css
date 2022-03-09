@@ -1,0 +1,292 @@
+header {background-color:transparent;}
+header .branding-custom {margin-top:-22px;}
+header .branding-custom {color:#000000 !important}
+header .branding-custom .top-navigation .authentication.logged-in #usernameDropdown {
+    color:#000000 !important;margin-top:-15px;}
+header .branding-custom .navbar-toggler {background-color:#ffffff;}
+@media (max-width:992px) {
+   header .branding-custom .top-navigation .authentication.logged-in #usernameDropdown {
+       color:#ffffff !important;}
+   header .branding-custom {margin-top:0px;}
+}
+
+
+  
+@font-face{font-family:"Benzin";font-style:normal;font-weight:bold;src:url('assets/themes/v5/fonts/benzinBold.woff2') format('woff2');}/*!sc*/
+.smart-bar {font-family:"Benzin";background-image:url(assets/themes/v5/img/megacontest/banner73bb.jpg?s=1);background-color:#000000;color:#ffffff;font-size:24px;font-weight:bold;height:150px;width:100%;text-align: center;position:fixed;top:-150px;z-index:1000;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+.smart-bar.expanded {top:0;padding-top:28px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+.smart-bar .btn {margin-left:20px;margin-right:20px;font-family:'Inter';margin-bottom:35px;}
+.smart-bar .fa-times {font-size:24px;}
+.smart-bar .text {max-width:600px;margin:auto;display:inline-block;margin-top:14px;}
+
+.closer {position:absolute;margin-left:100px;margin-top:-10px;color:#ffffff;}
+.closer:hover {color:#ffffff;}
+
+ @media (max-width:767px) {
+    .smart-bar .text {font-size:14px;margin-top:10px !important;}
+    .closer {margin-left: 70px;margin-top:-75px;}
+    .col-banner.expanded {margin-top:150px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+ }
+
+
+ @media (min-width: 768px) {
+    .dropdown-menu.multi-column {min-width: 450px;max-width:450px;margin-left:-325px !important;left:0;padding:0px;dropdown-menu multi-columnleft:0px;text-transform:none;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.32);margin-top:-10px;}
+    .dropdown-menu.multi-column .row {--bs-gutter-x:0;}
+    .dropdown-menu.multi-column .multi-column-head {padding: 13px 6px 6px 20px;font-weight: bold; font-size: 24px;text-transform:uppercase;font-family:'Sohne',Helvetica;}
+    .dropdown-menu.multi-column .poolTypesColumn {border-right:solid 1px #ffffff;width:45% !important;}
+    .dropdown-menu.multi-column .poolTypesColumn .dropdown-item {border-bottom:solid 0px #dddddd;padding: 8px 20px;}
+    .dropdown-menu.multi-column .solutionsColumn .dropdown-item {border-bottom:solid 0px #dddddd;padding: 8px 20px;}
+
+    .dropdown-menu.multi-column .multi-column-dropdown li:last-child .dropdown-item {border-bottom-width:0px;}
+    .dropdown-menu.multi-column li a:hover {background-color:rgba(209, 226, 241, .5);}
+    /*slide in animation*/
+    .nav-item.dropdown .dropdown-menu {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s;  max-height: 0; display: block; overflow: hidden;  opacity: 0;}
+    .nav-item.dropdown .dropdown-menu.show {  max-height: 450px; opacity: 1;}
+    /*end slide in animation*/
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu.multi-column .solutionsColumn {border-width:0px;width:100% !important;}
+}
+.dropdown-menu.columns-2 ul {list-style: none;margin:0px;padding-left:0px;}
+.poolTypesColumn .dropdown-item {font-size:14px;}
+.solutionsColumn  { background-color: #f7f7f7; min-height: 370px;border-left:solid 1px #e5e5e5;padding-bottom:10px;width:55% !important;}
+.solutionsColumn .multi-column-dropdown .dropdown-item {white-space: normal;font-size:13px;font-weight:bold;}
+.solutionText {font-size: 11px;font-weight:normal};
+
+
+
+.homepage h1 {font-size:104px;line-height: 80px;font-family:'Sohne', Helvetica;text-transform:uppercase;margin-top:107px;max-width:500px}
+    .homepage h2 {font-size:64px;line-height: 56px !important;margin-top:40px;margin-bottom:20px;}
+    .homepage h3 {font-size:40px;line-height: 36px;margin-bottom:25px;}
+    .homepage h4 {font-size:22px;margin-bottom:20px;}
+    .homepage .callout {font-size:18px;line-height: 26px;letter-spacing: -0.01em;margin-top:35px;margin-bottom:50px;}
+    .homepage .imgBanner {margin-top:17px;margin-left:-15px;max-width:100%;}
+
+    .homepage .gameBox.box1 {margin-top:-146px;margin-left:-67px;color:#000000;}
+    .homepage .gameBox.box2 {margin-top:10px;margin-left:50px;color:#000000;}
+    .homepage a.banner:hover {text-decoration:none;}
+    .homepage .gameBox {position:relative;background-color:#ffffff;max-width:500px;border-radius:8px;overflow:hidden;box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.12);}
+    .homepage .gameBox .col-team {display:inline-block;font-size:14px;height:80px;padding-top:30px;width:21%;flex: 0 0 auto;font-weight:600;text-shadow: rgba(0,0,0,.30) 0 0 1px;}
+    .homepage .gameBox .col-team.left {}
+    .homepage .gameBox .col-team.right {text-align:right;}
+    .homepage .gameBox .col-spread {font-family:'Inter';display:inline-block;font-size:16px;font-weight:800;text-transform:uppercase;text-align:center;width:30%;flex: 0 0 auto;padding-top:20px;text-shadow: rgba(0,0,0,.3) 0 0 1px;}
+    .homepage .gameBox .col-spread .info {font-family:'Inter', sans-serif;text-transform:uppercase;color:#a3a3a3;font-size:11px;font-weight:800;text-shadow: rgba(163,163,163,.3) 0 0 1px;}
+    .homepage .gameBox .col-img {flex: 0 0 auto;width: 14%;}
+    .homepage .gameBox .col-img img {width:80px;height:80px;}
+    .homepage .gameBox .col-img.left img {margin-left:-28px;}
+    .homepage .gameBox .col-img.right img {margin-left:-7px;}
+
+    .homepage .gameBox.boxContest {max-width:610px !important;padding:20px;margin-top:-166px;margin-left:-67px;padding-top:15px;}
+    .homepage .gameBox.boxContest .fas {float:left;padding-right:20px;padding-top:17px;font-size:50px;}
+    .homepage .gameBox.boxContest .btn {font-family:'Inter';margin-left:10px;padding-top:5px !important;padding-bottom:5px !important;}
+    .homepage .gameBox.boxContest .larger {font-size:33.5px;font-family:'Sohne', Helvetica;}
+    .homepage .gameBox.boxContest .smaller {font-size:14px;}
+
+    .homepage .sportBar {font-family:'Sohne', Helvetica;font-size:18px;text-transform:uppercase;background-color:#ffffff;box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.12);border-radius: 24px;margin-top:95px;padding-top:20px;padding-bottom:20px;margin-bottom:60px;}
+    .homepage .sportBar  i {font-size:26px;margin-bottom:11px;}
+    .homepage .sportBar > div {border-right:solid 1px #ededed;display:inline-block}
+    .homepage .sportBar > div:last-child {border-right-width:0px;}
+    .homepage .sportBar .sport {padding-top:25px;padding-bottom:21px;display:inline-block;text-align:center;color:#0A0E13;letter-spacing: 0.02em;width:100%;}
+    .homepage .sportBar .sport img {padding-bottom:10px;}
+    /* animation idea
+    .homepage .sportBar .sport  {transition:all .3s cubic-bezier(.42,.08,0,1.8);}
+    .homepage .sportBar .sport:hover  {transform: scale(1.7);}
+    */
+
+    .homepage .sport-categories .nav-tabs {margin-top:50px;color:#000000;border-width:0px;flex-wrap:nowrap;overflow-x: auto;overflow-y: hidden;}
+    .homepage .sport-categories .nav-tabs a {color:#000000}
+    .homepage .sport-categories .nav-link {padding:1rem 1.2rem;border-top-left-radius: .5rem;border-top-right-radius: .5rem;white-space:nowrap}
+    .homepage .sport-categories .tab-pane {padding:50px;padding-right:0px;border-top-right-radius: .5rem;border-bottom-right-radius: .5rem;border-bottom-left-radius: .5rem;}
+    .homepage .sport-categories .tab-pane ul {margin-top:15px;margin-bottom:0px;}
+    .homepage .sport-categories .tab-pane li {padding-bottom:15px;}
+    .homepage .sport-categories .tab-pane li:last-child {padding-bottom:0px;}
+    .homepage .sport-categories .tab-pane .btn:first-child {margin-right:15px}
+    .homepage .sport-categories .tab-content {margin-bottom:40px;}
+    .homepage .sport-categories .tab-content > .active,.homepage .sport-categories .nav-link.active {background-color:#ededed;border-color:#ededed;z-index:1;position:relative}
+
+    .homepage .sport-categories .imac {border:solid #DFE1E6 10px;border-right-width:0px;border-top-left-radius:20px;border-bottom-left-radius:20px;}
+    .homepage .sport-categories .imac img {margin-top:-22px;margin-left:-23px;position:relative;z-index:-1}
+
+    .homepage .sportLinks {margin-top:30px;}
+
+    .homepage .service-item > i {
+        height: 30px;
+        width: 30px;
+        border-radius: 30px;
+        line-height: 30px;
+        text-align: center;
+        display: block;
+        margin-right: 15px;
+        background: #003366;
+        color: white;
+        float: left;
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        transition: all 300ms;
+    }
+
+    .homepage .services{margin:20px 0;}
+    .homepage .service-item > i{height:30px;width:30px;border-radius:30px;line-height:30px;text-align:center;display:block;margin-right:15px;background:#003366;color:white;float:left;-webkit-transition:all 300ms;-moz-transition:all 300ms;transition:all 300ms;}
+    .homepage .service-desc{overflow:hidden;}
+    .homepage .service-desc > h4{margin-top:0;font-weight:500;}
+
+    .homepage .feedback{margin:40px 0 10px;}
+    .homepage .feedback > i{float:left;margin-right:15px;}
+    .homepage .feedback > div{position:relative;overflow:hidden;padding-left:20px;padding-right:6px;}
+    .homepage .feedback > div > p{margin: 0 0 10px;;padding:10px 20px;background:white;border:white;border-radius:0 4px 4px;-webkit-box-shadow:0px 0px 6px rgba(0, 0, 0, 0.175);box-shadow:0px 0px 6px rgba(0, 0, 0, 0.175);}
+    .homepage .feedback > div > p:before{content:'';position:absolute;top:0;left:0;width:0;height:0;border-top:20px solid white;border-left:30px solid transparent;}
+
+    .sportpage .features {margin-top:70px;}
+    .sportpage .feature-block {padding-left:25px;padding-right:25px;}
+    .sportpage .feature-block .fas {display:none;}
+    .sportpage .feature-block .feature-head {font-weight:bold;font-size:18px;}
+
+
+    @media (min-width: 991px) {
+      .row-cols-lg-8 > * {width: 12.5%;}
+    }
+    @media (min-width: 1350px) {
+      .homepage .sportBar {margin-left:-91px;margin-right:-91px;}
+      
+    }
+    @media (max-width: 1200px) {
+      .homepage .gameBox.box1 {margin-top:-100px;}
+    }
+    @media (max-width: 991px) {
+      .homepage h1 {margin-top:50px;}
+      .homepage .imgBanner {margin-top:50px;margin-left:15px;}
+      .homepage .gameBox {margin-left:-67px !important}
+
+    }
+    @media (max-width: 767px) {
+      .homepage h1 {font-size:75px;line-height:60px}
+      .homepage .imgBanner {margin-left:15px;}
+      .homepage .gameBox {display:none}
+      .homepage .sport-categories .tab-pane {padding:20px;padding-top:40px;padding-bottom:40px;}
+      .homepage .sport-categories .tab-pane ul {display:inline-block;text-align:left;}
+      .homepage .sport-categories .tab-pane .col-9.col-md-6.text-start {margin-top:10px;margin:auto;text-align:center !important}
+    }
+    @media (max-width: 576px) {
+      .homepage {text-align:center;}
+      .homepage h1 {margin-top:200px;font-size:59px;line-height:48px;}
+      .homepage .callout {margin-top:15px;margin-bottom:35px;}
+      .homepage .sportBar {--bs-gutter-x: 0rem;margin-top:50px;}
+      .homepage .sportLinks .btn {padding:18px 15px !important;}
+
+      .col-banner {position: absolute;display:flex;align-items: flex-end;top:38px;z-index:-1;left:50%;transform: translate(-50%, 0%);width:335px;}
+      .col-banner:after{content: '';width: 100%;height: 100%;position:absolute;background: linear-gradient(0deg, rgba(250,250,250,1) 20%, rgba(250,250,250,0) 65%);}
+
+    }
+
+    .zone2{
+        background-color:rgba(0, 0, 0, 0.9);
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 60px;
+        color:whitesmoke;
+        font-weight:bold;
+        margin-top:1rem;
+        font-size: 1.5rem;
+        padding:2rem;
+    }
+
+    .how{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .how_line >h3{
+        text-align: center;
+    }
+
+    .how_lines{
+        display:flex;
+    }
+
+    .how_line{
+        flex:1;
+       
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .how_line >h3{
+        color:indianred;
+        font-size:1.5rem;
+        
+    }
+
+    .a_game_top{
+        display:flex;
+       align-items: center;
+       width:100%;
+    }
+
+    .a_game_top >div{
+        flex:1;
+       
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .a_game_top >div > h4{
+        color:black;
+        font-size:0.8rem;
+        font-weight:bold;
+        margin:0;
+    }
+
+    .a_game_line{
+        position:relative;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .a_game_line > button{
+        position:absolute;
+        font-size: 0.7rem;
+        bottom:0;
+        right:-2rem;
+        display:flex;
+        flex-direction: column;
+        background-color:indianred;
+        color:white;
+        border:none;
+        font-weight:bold;
+
+    }
+    .a_game_line >img{
+        width:100px;
+    }
+    .how_line_info{
+        padding:0.5rem;
+        text-align: center;
+    }
+    .how_line_info >h4{
+        margin:0;
+        font-size:1rem;
+    }
+
+    .zone3 .feature-head{
+        color:indianred;
+    }
+
+    .contest-bar {width:100%;position:absolute;left:0;font-family:"Benzin";background-image:url(assets/themes/v5/img/megacontest/banner73bb.jpg?s=1);background-color:#000000;color:#ffffff;font-size:24px;font-weight:bold;min-height:120px;width:100%;text-align: center;margin-top:30px;padding-top:10px;}
+    .contest-bar .btn {margin-left:20px;margin-right:20px;font-family:'Inter';margin-bottom:35px;}
+    .contest-bar .fa-times {font-size:24px;}
+    .contest-bar .text {max-width:600px;margin:auto;display:inline-block;margin-top:14px;}
+    .sportBar {}
+    .sportpage.pt-1 {margin-top:250px;}
+      @media (max-width:767px) {
+          .contest-bar .text {font-size:14px;}
+
+         
+       }
