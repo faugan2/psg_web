@@ -3,15 +3,25 @@ import logo from "./img/logo.svg";
 import Modal from "./Modal";
 import {useState,useEffect} from "react";
 import Login from "./Login";
+import Register from "./Register";
 
 const Header=()=>{
     const [open_login,set_open_login]=useState(false);
+    const [open_register,set_open_register]=useState(false);
 
     const click=()=>{
         set_open_login(true);
-      }
+        set_open_register(false);
+    }
+    const click_register=()=>{
+        set_open_register(true);
+        set_open_login(false);
+    }
     const close_login=()=>{
         set_open_login(false);
+    }
+    const close_register=()=>{
+        set_open_register(false);
     }
 
     return(
@@ -90,9 +100,16 @@ const Header=()=>{
 		  </div>
 
           {open_login==true && <Modal 
-            content={<Login />}
+            content={<Login click={click_register}/>}
             click={close_login}
           />}
+
+          {
+              open_register==true && <Modal 
+              content={<Register click={click}/>}
+              click={close_register}
+              />
+          }
 		</header>
     );
 }
