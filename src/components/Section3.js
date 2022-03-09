@@ -1,7 +1,7 @@
 import "../styles/section3.scss";
 const Section3=()=>{
     return(
-        <div className="sportBar row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-8 ">
+        <div className="section3 sportBar row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-8 ">
         <div className="col"><a href="#nfl-football-pools.html" className="sport"><i className="fal fa-football-helmet"></i><div>NFL Football</div></a></div>
         <div className="col"><a href="#march-madness-pools.html" className="sport"><i className="fal fa-basketball-ball"></i><div>NCAA Basketball</div></a></div>
         <div className="col"><a href="#Golf/index.html" className="sport"><i className="fal fa-golf-ball"></i><div>Golf</div></a></div>

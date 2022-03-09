@@ -1,6 +1,19 @@
 import "../styles/header.scss";
 import logo from "./img/logo.svg";
+import Modal from "./Modal";
+import {useState,useEffect} from "react";
+import Login from "./Login";
+
 const Header=()=>{
+    const [open_login,set_open_login]=useState(false);
+
+    const click=()=>{
+        set_open_login(true);
+      }
+    const close_login=()=>{
+        set_open_login(false);
+    }
+
     return(
         <header className="navbar navbar-expand-lg navbar-light">
 		  <div className="container branding-standard" >
@@ -14,7 +27,8 @@ const Header=()=>{
           </button>
           
             <div className="authentication logged-out">
-              <a className="btn btn-primary btn-lg nav-link"  onClick2="$('#loginModal').modal('show');$('.modal-open').addClass('blur');">Log In</a>
+              <a className="btn btn-primary btn-lg nav-link"  
+              onClick={click}>Log In</a>
             </div>
           
 
@@ -74,6 +88,11 @@ const Header=()=>{
             </div>
         </div>
 		  </div>
+
+          {open_login==true && <Modal 
+            content={<Login />}
+            click={close_login}
+          />}
 		</header>
     );
 }
