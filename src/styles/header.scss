@@ -1,3 +1,27 @@
 .header{
-    border:1px solid red;
+    
+
+    .logout{
+       
+       margin-top:1rem;
+       
+        >button{
+            border:none;
+            padding:0.5rem 0.5rem;
+            cursor: pointer;
+            background-color:transparent;
+            color:indianred;
+        }
+    }
+
+    .profile{
+        
+        margin-top:-0.5rem;
+        >a > img{
+            width:40px;
+            height:40px;
+            border-radius: 50%;
+        }
+    }
 }
+

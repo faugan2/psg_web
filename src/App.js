@@ -7,6 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './screens/Home';
+import Splash from './screens/Splash';
 
 function App() {
  
@@ -14,6 +15,9 @@ function App() {
     <Router>
     <Switch>
       <Route path="/" exact>
+       <Splash />
+      </Route>
+      <Route path="/main" exact>
        <Home />
       </Route>
     </Switch>

@@ -5,6 +5,7 @@ import marketplace from "./img/marketplace.png";
 import experience from "./img/experience.png";
 
 const Section2=()=>{
+  return null;
     return(
         <div className="how">
         <h2>HOW IT WORKS</h2>

@@ -4,10 +4,24 @@ import Modal from "./Modal";
 import {useState,useEffect} from "react";
 import Login from "./Login";
 import Register from "./Register";
+import {auth,db} from "../firebase_file";
+import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
+import {useHistory} from "react-router-dom";
 
 const Header=()=>{
     const [open_login,set_open_login]=useState(false);
     const [open_register,set_open_register]=useState(false);
+    const [me,set_me]=useState(null);
+    const [connected,set_connected]=useState(false);
+    const history=useHistory();
+
+    useEffect(()=>{
+        if(auth?.currentUser==null){
+            set_connected(false);
+        }else{
+            set_connected(true);
+        }
+    },[auth]);
 
     const click=()=>{
         set_open_login(true);
@@ -25,7 +39,7 @@ const Header=()=>{
     }
 
     return(
-        <header className="navbar navbar-expand-lg navbar-light">
+        <header className="header navbar navbar-expand-lg navbar-light">
 		  <div className="container branding-standard" >
 		    
         <a className="navbar-brand" href="index.html">
@@ -36,10 +50,22 @@ const Header=()=>{
             <span className="navbar-toggler-icon"></span>
           </button>
           
-            <div className="authentication logged-out">
-              <a className="btn btn-primary btn-lg nav-link"  
+            {connected==false && <div className="authentication logged-out">
+              <a className="btn btn-primary btn-md nav-link"  
               onClick={click}>Log In</a>
-            </div>
+            </div>}
+
+            
+
+            {connected==true && <div className="authentication logged-out logout">
+                
+                <button onClick={e=>{
+                    auth.signOut();
+                    history.replace("/");
+                }}>
+                    <PowerSettingsNewIcon />
+                </button>
+            </div>}
           
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -93,6 +119,31 @@ const Header=()=>{
                 <li className="nav-item">
                 <a className="nav-link" href="#support/index.html">Support</a>
                 </li>
+
+                {connected==true && <li className="nav-item dropdown profile">
+                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src={auth?.currentUser?.photoURL} />
+                </a>
+                <div className="dropdown-menu multi-column columns-1" aria-labelledby="navbarDropdown"
+              
+                >
+                    
+                        
+                        <div className="multi-column-dropdown">
+                        <ul>
+                            <li><a className="dropdown-item" href="#nfl-football-pools.html">Profile</a></li>
+                            <li><a className="dropdown-item" href="#march-madness-pools.html">Settings</a></li>
+                            <li><a className="dropdown-item" href="#march-madness-pools.html"
+                            onClick={e=>{
+                                auth.signOut();
+                                history.replace("/");
+                            }}
+                            >Logout</a></li>
+                        </ul>
+                        </div>
+                   
+                </div>
+                </li>}
                 
             </ul>
             </div>

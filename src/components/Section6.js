@@ -3,23 +3,24 @@ const Section6=()=>{
         <div className="sport-categories">
     <div className="row">
       <div className="col-sm-12">
-      <h2 className="text-center">SPORTS CATEGORIES AND MATCH FORMATS      </h2>
+      <h2 className="text-center" style={{fontSize:"2.2rem"}}>
+      Here’s a List of Sports Categories and Match Formats to Play <br />– All of the Games, Zero Hassle!
+      </h2>
       </div>
     </div> 
     <div className="row">
       <div>
         
         <ul className="nav nav-tabs" role="tablist">
-        <li className="nav-item"><a className="nav-link active" href="#NFL" aria-controls="NFL" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">Pro Football</a></li>
+        <li className="nav-item"><a className="nav-link" href="#MLB" aria-controls="MLB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">Baseball</a></li>
+        <li className="nav-item"><a className="nav-link" href="#NBA" aria-controls="NBA" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">NBA Basketball</a></li>
+        <li className="nav-item"><a className="nav-link" href="#NHL" aria-controls="NHL" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">NHL Hockey</a></li>
+        <li className="nav-item"><a className="nav-link" href="#Olympics" aria-controls="Olympics" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">UFC</a></li>
+        <li className="nav-item"><a className="nav-link active" href="#NFL" aria-controls="NFL" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">NFL Football</a></li>
         <li className="nav-item"><a className="nav-link" href="#CBB" aria-controls="CBB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">College Basketball</a></li>
-        <li className="nav-item"><a className="nav-link" href="#PGA" aria-controls="PGA" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">Golf</a></li>
-        <li className="nav-item"><a className="nav-link" href="#NBA" aria-controls="NBA" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">Pro Basketball</a></li>
-        <li className="nav-item"><a className="nav-link" href="#MLB" aria-controls="MLB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">Pro Baseball</a></li>
-        <li className="nav-item"><a className="nav-link" href="#CFB" aria-controls="CFB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">College Bowls</a></li>
-        <li className="nav-item"><a className="nav-link" href="#NHL" aria-controls="NHL" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">Pro Hockey</a></li>
-        <li className="nav-item"><a className="nav-link" href="#Soccer" aria-controls="Soccer" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">Soccer</a></li>
-        <li className="nav-item"><a className="nav-link" href="#Oscars" aria-controls="Oscars" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">Academy Awards</a></li>
-        <li className="nav-item"><a className="nav-link" href="#Olympics" aria-controls="Olympics" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">Olympics</a></li>
+        <li className="nav-item"><a className="nav-link" href="#PGA" aria-controls="PGA" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">NCAA Basketball</a></li>
+        <li className="nav-item"><a className="nav-link" href="#" aria-controls="CFB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">More</a></li>
+        
         </ul>
       
 
@@ -51,10 +52,10 @@ const Section6=()=>{
               </div> 
                
               <div className="sportLinks" style={{marginTop:"30px"}}>
-              <a href="#nfl-football-pools.html" className="btn btn-light btn-xl">
+              <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
                 Heads Up
               </a>
-              <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-xl">
+              <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
                 Sports Booth
               </a>
               </div>
@@ -81,10 +82,10 @@ const Section6=()=>{
               </ul>
               </div>
               <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-xl">
+                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
                   Heads Up
                 </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-xl">
+                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
                   Sports Booth
                 </a>
                 </div>
@@ -111,10 +112,10 @@ const Section6=()=>{
               </ul>
               </div>
               <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-xl">
+                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
                   Heads Up
                 </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-xl">
+                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
                   Sports Booth
                 </a>
                 </div>
@@ -140,10 +141,10 @@ const Section6=()=>{
               </ul>
               </div>
               <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-xl">
+                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
                   Heads Up
                 </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-xl">
+                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
                   Sports Booth
                 </a>
                 </div>
@@ -170,10 +171,10 @@ const Section6=()=>{
               </ul>
               </div>
               <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-xl">
+                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
                   Heads Up
                 </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-xl">
+                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
                   Sports Booth
                 </a>
                 </div>
@@ -198,10 +199,10 @@ const Section6=()=>{
               </ul>
               </div>
               <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-xl">
+                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
                   Heads Up
                 </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-xl">
+                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
                   Sports Booth
                 </a>
                 </div>
@@ -227,10 +228,10 @@ const Section6=()=>{
               </ul>
               </div>
               <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-xl">
+                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
                   Heads Up
                 </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-xl">
+                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
                   Sports Booth
                 </a>
                 </div>
@@ -255,10 +256,10 @@ const Section6=()=>{
               </ul>
               </div>
               <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-xl">
+                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
                   Heads Up
                 </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-xl">
+                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
                   Sports Booth
                 </a>
                 </div>
@@ -282,10 +283,10 @@ const Section6=()=>{
             </ul>
             </div>
             <div className="sportLinks" style={{marginTop:"30px"}}>
-              <a href="#nfl-football-pools.html" className="btn btn-light btn-xl">
+              <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
                 Heads Up
               </a>
-              <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-xl">
+              <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
                 Sports Booth
               </a>
               </div>
@@ -308,10 +309,10 @@ const Section6=()=>{
             </ul>
             </div>
             <div className="sportLinks" style={{marginTop:"30px"}}>
-              <a href="#nfl-football-pools.html" className="btn btn-light btn-xl">
+              <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
                 Heads Up
               </a>
-              <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-xl">
+              <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
                 Sports Booth
               </a>
               </div>

@@ -221,14 +221,14 @@ const Login=({click})=>{
                         <div></div>
                     </div>
 
-                    <div className="provider_zone">
+                    <div className="provider_zone" style={{marginBotom:"1rem"}}>
                         {progressing==true && <CircularProgress size={15} style={{color:"white"}} />}
-                        <button onClick={login_with_google} style={{display:"none"}}>
+                        <button onClick={login_with_google}>
                             {/*<GoogleIcon />*/}
                             Log In with Google
                         </button>
 
-                        <div id="firebaseui-auth-container"></div>
+                        <div id="firebaseui-auth-container" style={{display:"none"}}></div>
 
                         
                     </div>
