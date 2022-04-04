@@ -4,7 +4,7 @@ const Section6=()=>{
     <div className="row">
       <div className="col-sm-12">
       <h2 className="text-center" style={{fontSize:"2.2rem"}}>
-      Here’s a List of Sports Categories and Match Formats to Play <br />– All of the Games, Zero Hassle!
+      Here’s a List of Sports Categories and Match Formats to Play – All of the Games, Zero Hassle!
       </h2>
       </div>
     </div> 
@@ -28,25 +28,26 @@ const Section6=()=>{
         <div role="tabpanel" className="tab-pane active" id="NFL">
           <div className="row">
             <div className="col-md-6 col-sm-12">
-              <h3>Running your NFL pool has never been so easy!</h3>
-              <h4>Regular season and Playoff formats available.</h4>
-              <div style={{marginBottom:"20px"}} className="col-12 col-md-6">Choose from 8 different NFL football pool formats, which can be started at any point during the season.</div>
+              <h3>NFL Football - Fan’s Favorite Since Years!</h3>
+              <h4>PLAY NFL FOOTBALL EXACTLY HOW YOU IMAGINED. IT CAN NEVER BE THIS EASIER!</h4>
+              <div style={{marginBottom:"20px"}} className="col-12 col-md-6">
+              <p>Playing NFL Football is now easier and more Fun. Choose any playing &nbsp;formats 
+                in all your favorite sports to keep the fun going throughout the year. This ultimate fun won&rsquo;t burn your pockets! &ndash; It&rsquo;s free.</p>
+<p>Choose any of the below game mode to level up your entertainment with ProSport.Guru:</p>
+              </div>
               <div className="row">
                 <div className="col-9 col-md-6 text-start mx-auto" >
                 <ul style={{minWidth: "220px"}}>
-                  <li><a href="NFL-Survivor-Pools.html">Football Survivor Pools</a></li>
-                  <li><a href="NFL-Pickem-Pools.html">Football Pick 'em Pools</a></li>
-                  <li><a href="NFL-Squares-Pools.html">Football Squares Pools</a></li>
-                  <li><a href="NFL-Confidence-Pools.html">Football Confidence Pools</a></li>
-                  <li><a href="NFL-Margin-Pools.html">Football Margin Pools</a></li>
+                  <li><a href="NFL-Survivor-Pools.html">Heads Up</a></li>
+                  <li><a href="NFL-Pickem-Pools.html">Sports Booth</a></li>
+                  <li><a href="NFL-Squares-Pools.html">Most Wins</a></li>
+                  
                 </ul>
                 </div>
                 <div className="col-9 col-md-6 text-start mx-auto ">
                   <ul>
-                  <li><a href="NFL-Credits-pools.html">Football Credits Pools</a></li>
-                  <li><a href="NFL-33-Pools.html">Football 33 Point Pools</a></li>
-                  <li><a href="NFL-Playoff-Pools-Power-Ranking.html">Power Ranking Playoff Pools</a></li>
-                  <li><a href="nfl-playoff-precision-pools.html">Playoff Precision Pools</a></li>
+                  <li><a href="NFL-Confidence-Pools.html">Longest Winning Streak</a></li>
+                  <li><a href="NFL-Margin-Pools.html">Play Pro With Debbie</a></li>
                   </ul>
                 </div>
               </div> 

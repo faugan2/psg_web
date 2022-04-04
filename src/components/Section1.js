@@ -5,13 +5,13 @@ const Section1=()=>{
         <div className="row section1" style={{}} >
         <div className="col-12 col-sm-6">
             <h1>It’s Time to Pick and Play the Best Pick’em Sports Game!</h1>
-            <p className="callout">
-            Get yourself immerse to Picking, Playing and Winning Prizes all season long. 
-            ProSport.Guru is 100% free and interactive Fantasy Sports Pick’em Game.
-            Don’t miss out on creating your free profile today. <strong>Pick, Play and Enjoy without the risk! </strong>
-            </p>
+            <p>Get yourself immersed in Picking, Playing and Winning Prizes all season long. ProSport.Guru is a 100% free and an interactive&nbsp;Fantasy Sports &nbsp;Pick&rsquo; Em Game.&nbsp;Don&rsquo;t miss out on creating your free profile today.&nbsp;Pick, Play and Enjoy but without the risk!</p>
+<p>Ready to play? It&rsquo;s Time to Get Pickin&rsquo;!</p>
+<p>Let&rsquo;s Go</p>
             <hr />
-            <p>Ready to play? It’s Time to Get Pickin’!</p>
+            <p>ProSport.Guru is a Free-to-play&nbsp;online prediction game. Ramp up the rivalry to challenge your knowledge and witness the most fun fantasy season ever!</p>
+<p>Play for Free</p>
+
             <p><a className="btn btn-sm btn-primary" href="#start_pool/index.html">Let's Go</a></p>
         </div>
         <div className="col-12 col-sm-6 col-banner">
