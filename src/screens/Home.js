@@ -7,7 +7,7 @@ import Section4  from "../components/Section4";
 import Section5 from "../components/Section5";
 import Section6 from "../components/Section6";
 import SectionHowToPlay from '../components/SectionHowToPlay';
-
+import Faq from "../components/Faq";
 
 
 const Home=()=>{
@@ -23,6 +23,7 @@ const Home=()=>{
           <Section4 />
           <Section5 />
           <Section6 />
+          <Faq />
         </div> 
       </div>
       <Footer />
