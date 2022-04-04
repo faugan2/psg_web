@@ -1,3 +1,12 @@
+import NFL from "./NFL";
+import CollegeFootball from "./CollegeFootball";
+import NCCABasketball from "./NCCABasketball";
+import NBA from "./NBA";
+import MLB from "./MLB";
+import NHL from "./NHL";
+import UFC from "./UFC";
+import GOLF from "./GOLF";
+
 const Section6=()=>{
     return(
         <div className="sport-categories">
@@ -17,314 +26,23 @@ const Section6=()=>{
         <li className="nav-item"><a className="nav-link" href="#NHL" aria-controls="NHL" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">NHL Hockey</a></li>
         <li className="nav-item"><a className="nav-link" href="#Olympics" aria-controls="Olympics" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">UFC</a></li>
         <li className="nav-item"><a className="nav-link active" href="#NFL" aria-controls="NFL" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">NFL Football</a></li>
-        <li className="nav-item"><a className="nav-link" href="#CBB" aria-controls="CBB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">College Basketball</a></li>
+        <li className="nav-item"><a className="nav-link" href="#CBB" aria-controls="CBB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">College Football</a></li>
         <li className="nav-item"><a className="nav-link" href="#PGA" aria-controls="PGA" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">NCAA Basketball</a></li>
+        <li className="nav-item"><a className="nav-link" href="#GOLF" aria-controls="GOLF" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">GOLF</a></li>
         <li className="nav-item"><a className="nav-link" href="#" aria-controls="CFB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">More</a></li>
         
         </ul>
       
 
         <div className="tab-content">
-        <div role="tabpanel" className="tab-pane active" id="NFL">
-          <div className="row">
-            <div className="col-md-6 col-sm-12">
-              <h3>NFL Football - Fan’s Favorite Since Years!</h3>
-              <h4>PLAY NFL FOOTBALL EXACTLY HOW YOU IMAGINED. IT CAN NEVER BE THIS EASIER!</h4>
-              <div style={{marginBottom:"20px"}} className="col-12 col-md-6">
-              <p>Playing NFL Football is now easier and more Fun. Choose any playing &nbsp;formats 
-                in all your favorite sports to keep the fun going throughout the year. This ultimate fun won&rsquo;t burn your pockets! &ndash; It&rsquo;s free.</p>
-<p>Choose any of the below game mode to level up your entertainment with ProSport.Guru:</p>
-              </div>
-              <div className="row">
-                <div className="col-9 col-md-6 text-start mx-auto" >
-                <ul style={{minWidth: "220px"}}>
-                  <li><a href="NFL-Survivor-Pools.html">Heads Up</a></li>
-                  <li><a href="NFL-Pickem-Pools.html">Sports Booth</a></li>
-                  <li><a href="NFL-Squares-Pools.html">Most Wins</a></li>
-                  
-                </ul>
-                </div>
-                <div className="col-9 col-md-6 text-start mx-auto ">
-                  <ul>
-                  <li><a href="NFL-Confidence-Pools.html">Longest Winning Streak</a></li>
-                  <li><a href="NFL-Margin-Pools.html">Play Pro With Debbie</a></li>
-                  </ul>
-                </div>
-              </div> 
-               
-              <div className="sportLinks" style={{marginTop:"30px"}}>
-              <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
-                Heads Up
-              </a>
-              <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
-                Sports Booth
-              </a>
-              </div>
-            </div>
-            <div className="col-md-6 col-sm-12 text-right d-none d-md-block my-auto" >
-              <div className="float-end imac">
-              <img src="assets/themes/paperclip/img/sports/nfl/imac-content.png" />
-              </div>
-            </div>
-          </div>
-          </div>
-        <div role="tabpanel" className="tab-pane" id="CBB">
-            <div className="row">
-            <div className="col-md-6 col-sm-12">
-              <h3>When March rolls around, be confident that your pool host is up to the task</h3>
-              <div style={{marginBottom:"20px"}}>We offer 5 different formats for the Men's NCAA Basketball Tournament. Configurable scoring options are available.</div>
-              <div className="col-9 col-md-6 text-start">
-              <ul>
-                <li><a href="NCAA-Bracket-Pool.html">Bracket Pools</a></li>
-                <li><a href="march-madness-squares-pools.html">Squares Pools</a></li>
-                <li><a href="ncaa-head-to-head-survivor.html">Head-to-Head Pools</a></li>
-                <li><a href="march-madness-survivor-pools.html">Survivor Pools</a></li>
-                <li><a href="NCAA-Pick8-Pool.html">Pick X Pools</a></li>
-              </ul>
-              </div>
-              <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
-                  Heads Up
-                </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
-                  Sports Booth
-                </a>
-                </div>
-            </div>
-             <div className="col-md-6 col-sm-12 text-right d-none d-md-block my-auto">
-              <div className="float-end imac">
-              <img />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div role="tabpanel" className="tab-pane" id="PGA">
-          <div className="row">
-            <div className="col-md-6 col-sm-12">
-              <h3>We've got your Golf pool covered from tee to green!</h3>
-              <h4>Multiple pool formats with many pick and scoring options.</h4>
-              <div style={{marginBottom:"20px"}}>Whether you want to run a pool for the Majors or a weekly fantasy pool, we have a format that will meet your needs.</div>
-              <div className="col-9 col-md-6 text-start">
-              <ul>
-                <li><a href="PGA-Golf-Majors-Pools.html">Major Championship Pools</a></li>
-                <li><a href="Golf-Pick-One-Pools.html">Pick X Pools</a></li>
-                
-                <li><a href="pga-golf-fedexcup-playoff-pools.html">FedExCup Playoff Pools</a></li>
-              </ul>
-              </div>
-              <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
-                  Heads Up
-                </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
-                  Sports Booth
-                </a>
-                </div>
-            </div>
-             <div className="col-md-6 col-sm-12 text-right d-none d-md-block my-auto">
-              <div className="float-end imac">
-              <img />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div role="tabpanel" className="tab-pane" id="NBA">
-             <div className="row">
-              <div className="col-md-7 col-sm-12">
-              <h3>Keep the excitement going with a season-long NBA pool!</h3>
-              <h4>You can start a new pool at any time during the season!</h4>
-              <div style={{marginBottom:"20px"}}>We simplify everything for not just your members, but you as well. Just spend a few minutes setting up your pool, selecting a few options, inviting members and viola! You'll have a full NBA season's worth of fun at your fingertips.</div>
-              <div className="col-9 col-md-6 text-start">
-               <ul>
-                <li><a href="NBA-Pickem-Pools.html">NBA Pick 'em Pools</a></li>
-                <li><a href="NBA-Survivor-Pools.html">NBA Survivor Pools</a></li>
-                <li><a href="NBA-Playoff-Bracket-Pool.html">NBA Playoff Bracket Pools</a></li>
-              </ul>
-              </div>
-              <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
-                  Heads Up
-                </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
-                  Sports Booth
-                </a>
-                </div>
-              </div>
-               <div className="col-md-5 col-sm-12 text-right d-none d-md-block my-auto">
-              <div className="float-end imac">
-              <img />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div role="tabpanel" className="tab-pane" id="MLB">
-             <div className="row">
-              <div className="col-md-6 col-sm-12">
-              <h3>The easiest way to Pro Sport Guru this Baseball Season</h3>
-              <h4>You can start a new pool at any time during the season!</h4>
-              <div style={{marginBottom:"20px"}}>While America's past time isn't traditionally associated with office pools, we currently offers four great baseball pool formats to choose from.</div>
-              <div className="col-9 col-md-6 text-start">
-               <ul>
-                <li><a href="Baseball-13Run-Pools.html">13-Run Baseball Pools</a></li>
-                <li><a href="MLB-Home-Run-Derby-Pool.html">Home Run Pools</a></li>
-                <li><a href="Baseball-Survivor-Pools.html">Baseball Survivor Pools</a></li>
-                <li><a href="MLB-Squares-Pools.html">Baseball Squares Pools</a></li>
-              </ul>
-              </div>
-              <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
-                  Heads Up
-                </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
-                  Sports Booth
-                </a>
-                </div>
-              </div>
-               <div className="col-md-6 col-sm-12 text-right d-none d-md-block my-auto">
-              <div className="float-end imac">
-              <img />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div role="tabpanel" className="tab-pane" id="CFB">
-           <div className="row">
-              <div className="col-md-6 col-sm-12">
-              <h3>Your College Bowl pool doesn't have to feel like hard work</h3>
-              <h4>We'll lighten your workload and help you enjoy Bowl Season.</h4>
-              <div className="col-9 col-md-6 text-start">
-              <ul>
-                <li><a href="College-Bowl-Confidence-Pools.html">College Bowl Confidence Pools</a></li>
-                <li><a href="College-Bowl-Pickem-Pools.html">College Bowl Pick 'em Pools</a></li>
-                <li><a href="College-Bowl-Squares-Pools.html">College Bowl Squares</a></li>
-              </ul>
-              </div>
-              <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
-                  Heads Up
-                </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
-                  Sports Booth
-                </a>
-                </div>
-              </div>
-              <div className="col-md-6 col-sm-12 text-right d-none d-md-block my-auto">
-              <div className="float-end imac">
-                <img />
-              </div>
-              </div>
-            </div>
-        </div>
-        <div role="tabpanel" className="tab-pane" id="NHL">
-            <div className="row">
-              <div className="col-md-6 col-sm-12">
-              <h3>Make sure you're ready when the puck drops with our NHL Hockey Pools</h3>
-              <h4>Regular season and playoff formats available.</h4>
-              <div style={{marginBottom:"20px"}}>Run your Stanley Cup Playoff Bracket pool online this year. Our customizable scoring system allows for flexibility for the Pool Commissioner.</div>
-              <div className="col-9 col-md-6 text-start">
-              <ul>
-                <li><a href="NHL-hockey-pickem-pools.html">NHL Pick 'em' Pools</a></li>
-                 <li><a href="NHL-hockey-survivor-pools.html">NHL Survivor Pools</a></li>
-                  <li><a href="NHL-Playoff-Bracket-Pool.html">NHL Playoff Bracket Pools</a></li>
-              </ul>
-              </div>
-              <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
-                  Heads Up
-                </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
-                  Sports Booth
-                </a>
-                </div>
-              </div>
-              <div className="col-md-6 col-sm-12 text-right d-none d-md-block my-auto">
-              <div className="float-end imac">
-                <img  />
-              </div>
-              </div>
-            </div>
-        </div>
-        <div role="tabpanel" className="tab-pane" id="Soccer">
-          <div className="row">
-            <div className="col-md-6 col-sm-12">
-              <h3>From group play to the knockout stage, we make it easy to run your Football (American Soccer) pool!</h3>
-              <h4>Run your World Cup or Euro Championship pool with us!</h4>
-              <div className="col-9 col-md-6 text-start">
-              <ul>
-                <li><a href="fifa-world-cup-soccer-pools.html">2018 Men's World Cup Pools</a></li>
-                <li><a href="fifa-world-cup-soccer-pools.html">2019 Women's World Cup Pools</a></li>
-                <li><a href="UEFA-euro-soccer-pools.html">2020 UEFA Euro Pool</a></li>
-              </ul>
-              </div>
-              <div className="sportLinks" style={{marginTop:"30px"}}>
-                <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
-                  Heads Up
-                </a>
-                <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
-                  Sports Booth
-                </a>
-                </div>
-              </div>
-              <div className="col-md-6 col-sm-12 text-right d-none d-md-block my-auto">
-               <div className="float-end imac">
-                <img />
-                </div>
-              </div>
-            </div>
-          </div>
-        <div role="tabpanel" className="tab-pane" id="Oscars">
-          <div className="row">
-            <div className="col-md-6 col-sm-12">
-            <h3>Enjoy the Awards Season with your own private Oscars Pool</h3>
-            <h4>Run it for friends & family, your office, or your clients.</h4>
-            <div style={{marginBottom:"20px"}}>One of the most watched television events of the year.</div>
-            <div className="col-9 col-md-6 text-start">
-            <ul>
-               <li><a href="Academy-Awards-Oscars-pools.html">Oscar Pools</a></li>
-            </ul>
-            </div>
-            <div className="sportLinks" style={{marginTop:"30px"}}>
-              <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
-                Heads Up
-              </a>
-              <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
-                Sports Booth
-              </a>
-              </div>
-            </div>
-            <div className="col-md-6 col-sm-12 text-right d-none d-md-block my-auto">
-             <div className="float-end imac">
-              <img />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div role="tabpanel" className="tab-pane" id="Olympics">
-         <div className="row">
-          <div className="col-md-6 col-sm-12">
-            <h3>Go for the Gold!<br/>Available for both the Summer and Winter Olympics</h3>
-            <h4>Create a roster of countries you think will have the best medal count.</h4>
-            <div className="col-9 col-md-6 text-start">
-            <ul>
-               <li><a href="olympics-pool-pickem.html">Olympics Pools</a></li>
-            </ul>
-            </div>
-            <div className="sportLinks" style={{marginTop:"30px"}}>
-              <a href="#nfl-football-pools.html" className="btn btn-light btn-sm">
-                Heads Up
-              </a>
-              <a href="#start_pool/index8a11.html?dropdown=1" className="btn btn-primary btn-sm">
-                Sports Booth
-              </a>
-              </div>
-            </div>
-            <div className="col-md-6 col-sm-12 text-right d-none d-md-block my-auto">
-             <div className="float-end imac">
-              <img />
-              </div>
-            </div>
-          </div>
-        </div>
+        <NFL />
+        <CollegeFootball />
+        <NCCABasketball />  
+        <NBA />
+        <MLB />
+        <NHL />
+        <UFC />
+        <GOLF />
       </div>
      
       </div>
