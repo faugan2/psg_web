@@ -28,8 +28,8 @@ const Section6=()=>{
         <li className="nav-item"><a className="nav-link active" href="#NFL" aria-controls="NFL" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">NFL Football</a></li>
         <li className="nav-item"><a className="nav-link" href="#CBB" aria-controls="CBB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">College Football</a></li>
         <li className="nav-item"><a className="nav-link" href="#PGA" aria-controls="PGA" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">NCAA Basketball</a></li>
-        <li className="nav-item"><a className="nav-link" href="#GOLF" aria-controls="GOLF" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">GOLF</a></li>
-        <li className="nav-item" style={{display:"none"}}><a className="nav-link" href="#" aria-controls="CFB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">More</a></li>
+        <li className="nav-item"><a className="nav-link" href="#GOLF" aria-controls="GOLF" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">UFC</a></li>
+        <li className="nav-item" ><a className="nav-link" href="#" aria-controls="CFB" role="tab" data-bs-toggle="tab" onclick="loadImage(this);">More</a></li>
         
         </ul>
       
