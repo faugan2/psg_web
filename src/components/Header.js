@@ -301,10 +301,7 @@ const Header = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a
-                                    className="nav-link"
-                                    href="#support/index.html"
-                                >
+                                <a className="nav-link" href="/support">
                                     Support
                                 </a>
                             </li>

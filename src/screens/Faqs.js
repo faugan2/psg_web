@@ -55,13 +55,12 @@ const data = {
             content:
                 "You can redeem your PS.G crypto coins by playing pro features, buying exclusive PS.G merchandise, and more. If you want to trade the PS.G Crypto Coins or do something else with our coins outside of the PSG app, then you have to install the Solflare app and create a wallet. That’s it. The wallet ID will be generated automatically as soon as you create the wallet,  and after that we will make a transfer of your Ps.G coins to your Solflare wallet.",
         },
-        // TODO
         {
             title: "How many types of bonuses do I get?",
             content: `With ProSport.Guru, you are rewarded with two types of bonus namely:
-        ●	Welcome Bonus - ProSport.Guru offers you the welcome bonus of 50 PS.G crypto coins.
-        ●	Refer a Friend Bonus: This bonus is awarded to you when you invite and refer a friend.
-        ●	Daily Reward: ProSport.Guru also offers the daily reward of 1 free coin if you visit the app daily whether you play or not. 
+        Welcome Bonus - ProSport.Guru offers you the welcome bonus of 50 PS.G crypto coins.
+        Refer a Friend Bonus: This bonus is awarded to you when you invite and refer a friend.
+        Daily Reward: ProSport.Guru also offers the daily reward of 1 free coin if you visit the app daily whether you play or not. 
         `,
         },
         {
@@ -77,20 +76,10 @@ const data = {
     ],
 };
 
-const Question = ({ name, res }) => {
-    return (
-        <div className="question-box">
-            <div className="question-name">{name}</div>
-            <div className="question-res">{res}</div>
-        </div>
-    );
-};
-
 const styles = {
     bgColor: "transparent",
     titleTextColor: "white",
     rowTitleColor: "white",
-    rowTitlePaddingLeft: "50px",
     rowContentColor: "#d4d4d4",
     arrowColor: "white",
 };
