@@ -41,7 +41,7 @@ const Header = () => {
     return (
         <header className="header navbar navbar-expand-lg navbar-light">
             <div className="container branding-standard">
-                <a className="navbar-brand" href="index.html">
+                <a className="navbar-brand" href="/">
                     <img src={logo} />
                 </a>
                 <div className="top-navigation">
