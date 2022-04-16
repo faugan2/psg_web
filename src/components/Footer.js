@@ -6,7 +6,7 @@ const Footer = () => {
                 <div>
                     <a href="#terms_of_service.html">Terms of Service</a> |
                     <a href="#privacy.html"> Privacy Statement</a> |
-                    <a href="#faqs.html"> FAQs</a> |
+                    <a href="/faqs"> FAQs</a> |
                     <a href="#glossary.html"> Glossary</a> |
                     <a href="#contact.html"> Contact Us</a>
                     <p className="copyright">
