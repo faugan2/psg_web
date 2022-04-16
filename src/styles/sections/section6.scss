@@ -1,0 +1,19 @@
+.row {
+    .nav {
+        .nav-item {
+            .nav-link {
+                color: white;
+                border: none;
+            }
+            .nav-link.active {
+                background-color: #171717;
+            }
+        }
+    }
+    .feedback {
+        color: black;
+    }
+    i {
+        color: indianred;
+    }
+}

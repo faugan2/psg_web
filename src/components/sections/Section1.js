@@ -1,5 +1,5 @@
-import "../styles/sections/section1.scss";
-import banner from "./img/banner.jpg";
+import "../../styles/sections/section1.scss";
+import banner from "../img/banner.jpg";
 const Section1 = () => {
     return (
         <div className="row section1" style={{}}>

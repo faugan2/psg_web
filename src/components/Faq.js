@@ -41,9 +41,9 @@ const data = {
 const styles = {
     bgColor: "transparent",
     titleTextColor: "white",
-    rowTitleColor: "indianred",
+    rowTitleColor: "white",
     rowTitlePaddingLeft: "50px",
-    rowContentColor: "white",
+    rowContentColor: "#d4d4d4",
     arrowColor: "white",
 };
 
