@@ -1,4 +1,3 @@
-import "../styles/faq.scss";
 import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
 const data = {
@@ -11,7 +10,7 @@ const data = {
         },
         {
             title: "Is ProSport.Guru Safe and Secure to Play?",
-            content:`Hella yes! ProSport.Guru empowers you with the chance to pick and play games in a safe yet secure 
+            content: `Hella yes! ProSport.Guru empowers you with the chance to pick and play games in a safe yet secure 
             way. You do not need to risk your money for fun, we empower you to play with PS.G Crypto coins.
              ProSport.Guru is the best alternative to bigger sportsbooks and we encourage responsible gaming so that your dream of picking and playing doesn't turn into a nightmare.
             `,
@@ -23,47 +22,42 @@ const data = {
         },
         {
             title: "s it legal to play ProSport.Guru Sports Pick’em Game?",
-            content:`The ProSport.Guru is about gaming skills that makes it stand out from the gambling. You have to be at least 18 or older than that in order to play ProSport.Guru. 
+            content: `The ProSport.Guru is about gaming skills that makes it stand out from the gambling. You have to be at least 18 or older than that in order to play ProSport.Guru. 
             As it is a skill-based game and not a gmabling site, ProSport.Guru is legal to play.`,
         },
         {
-            title:"Will you misuse my private information?" ,
-            content:`We love our sports fans, and we will never take a chance to play with your information. Likewise, your personal data will be kept confidential and won’t  be
-             misused, sold, leased, reused, disclosed or loaned.`
+            title: "Will you misuse my private information?",
+            content: `We love our sports fans, and we will never take a chance to play with your information. Likewise, your personal data will be kept confidential and won’t  be
+             misused, sold, leased, reused, disclosed or loaned.`,
         },
         {
-            title:"How do I earn a referral bonus when I refer a friend?",
-            content:`It’s easy! When your referred friend joins the ProSport.Guru with invite feature. 
-            You will get a certain amount of PS.G crypto coin as a referral bonus.`
-        }
+            title: "How do I earn a referral bonus when I refer a friend?",
+            content: `It’s easy! When your referred friend joins the ProSport.Guru with invite feature. 
+            You will get a certain amount of PS.G crypto coin as a referral bonus.`,
+        },
     ],
 };
 
 const styles = {
-    // bgColor: 'white',
-    titleTextColor: "black",
+    bgColor: "transparent",
+    titleTextColor: "white",
     rowTitleColor: "indianred",
-    // rowContentColor: 'grey',
-    // arrowColor: "red",
+    rowTitlePaddingLeft: "50px",
+    rowContentColor: "white",
+    arrowColor: "white",
 };
-
 
 const config = {
     animate: true,
-     arrowIcon: "V",
-     tabFocus: true
+    arrowIcon: "V",
+    tabFocus: true,
 };
 
-const  Faqc =()=>{
-
+const Faqc = () => {
     return (
         <div>
-            <Faq
-                data={data}
-                styles={styles}
-                config={config}
-            />
+            <Faq data={data} styles={styles} config={config} />
         </div>
     );
-}
+};
 export default Faqc;
