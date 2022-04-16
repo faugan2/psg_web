@@ -1,0 +1,20 @@
+.section1 {
+    .zone2 {
+        border-radius: 15px;
+    }
+    .btn {
+        background-color: indianred;
+        color: white;
+        border: 0;
+    }
+    > div {
+        > h1 {
+            font-size: 2rem;
+            margin: none !important;
+            padding: none !important;
+        }
+
+        > .callout {
+        }
+    }
+}
