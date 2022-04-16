@@ -1,27 +1,35 @@
-.header{
-    
+.header {
+    .nav-item {
+        .nav-link {
+            color: white;
+        }
+        .nav-link:hover {
+            color: white;
+            opacity: 80%;
+        }
+        .nav-link:focus {
+            color: white;
+            opacity: 80%;
+        }
+    }
+    .logout {
+        margin-top: 1rem;
 
-    .logout{
-       
-       margin-top:1rem;
-       
-        >button{
-            border:none;
-            padding:0.5rem 0.5rem;
+        > button {
+            border: none;
+            padding: 0.5rem 0.5rem;
             cursor: pointer;
-            background-color:transparent;
-            color:indianred;
+            background-color: transparent;
+            color: indianred;
         }
     }
 
-    .profile{
-        
-        margin-top:-0.5rem;
-        >a > img{
-            width:40px;
-            height:40px;
+    .profile {
+        margin-top: -0.5rem;
+        > a > img {
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
         }
     }
 }
-
