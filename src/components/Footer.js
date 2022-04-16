@@ -8,7 +8,7 @@ const Footer = () => {
                     <a href="#privacy.html"> Privacy Statement</a> |
                     <a href="/faqs"> FAQs</a> |
                     <a href="#glossary.html"> Glossary</a> |
-                    <a href="#contact.html"> Contact Us</a>
+                    <a href="/contact"> Contact Us</a>
                     <p className="copyright">
                         Copyright &#169; 2022 PS.G
                         <br />
