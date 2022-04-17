@@ -99,16 +99,9 @@ const Header = () => {
                                     Play Sports Booth
                                 </a>
                             </li>
-                            <li className="nav-item dropdown">
-                                <a
-                                    className="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="navbarDropdown"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    Our Services
+                            <li className="nav-item">
+                                <a className="nav-link" href="/about">
+                                    About Us
                                 </a>
                                 <div
                                     className="dropdown-menu multi-column columns-2"
