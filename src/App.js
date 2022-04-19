@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Faqs from "./screens/Faqs";
 import Support from "./screens/Support";
+import About from "./screens/About";
 import Contact from "./screens/Contact";
 import Home from "./screens/Home";
 import Splash from "./screens/Splash";
@@ -25,6 +26,9 @@ function App() {
                 </Route>
                 <Route path="/contact" exact>
                     <Contact />
+                </Route>
+                <Route path="/about" exact>
+                    <About />
                 </Route>
             </Switch>
         </Router>
