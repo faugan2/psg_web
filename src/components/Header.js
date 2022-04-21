@@ -87,15 +87,12 @@ const Header = () => {
                     >
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a
-                                    className="nav-link"
-                                    href="#start_pool/index.html"
-                                >
+                                <a className="nav-link" href="/subhome">
                                     Play Heads Up
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#join/index.html">
+                                <a className="nav-link" href="/subhome">
                                     Play Sports Booth
                                 </a>
                             </li>
