@@ -91,7 +91,7 @@ const SubHome = () => {
                     </Content>
                     <img className="image" src={headsUp} alt="heads_up"></img>
                     <Content title>
-                        [] Sports Booth - Take a Shot to Play with 3 to 10
+                        Sports Booth - Take a Shot to Play with 3 to 10
                         Multi-Players
                     </Content>
                     <Content>
