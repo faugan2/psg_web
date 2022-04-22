@@ -129,7 +129,6 @@ const sections = [
 ];
 
 const Section = ({ title, contents, list, image, right }) => {
-    list && console.log(list);
     return (
         <div>
             <h1 className={right ? "section-title-right" : "section-title"}>
@@ -182,6 +181,7 @@ const Section = ({ title, contents, list, image, right }) => {
                     />
                 )}
             </div>
+            <hr />
         </div>
     );
 };
