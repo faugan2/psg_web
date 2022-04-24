@@ -24,12 +24,8 @@ const Section1 = () => {
                     the most fun fantasy season ever!
                 </p>
                 <p>Play for Free</p>
-
                 <p>
-                    <a
-                        className="btn btn-sm btn-primary"
-                        href="#start_pool/index.html"
-                    >
+                    <a className="btn btn-sm" href="#start_pool/index.html">
                         Let's Go
                     </a>
                 </p>
