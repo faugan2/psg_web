@@ -37,7 +37,6 @@ const Header = () => {
     const close_register = () => {
         set_open_register(false);
     };
-
     return (
         <header className="header navbar navbar-expand-lg navbar-light">
             <div className="container branding-standard">
@@ -86,211 +85,52 @@ const Header = () => {
                         id="navbarSupportedContent"
                     >
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
+                            <li
+                                className={`nav-item ${
+                                    window.location.pathname === "/subhome" &&
+                                    "underline"
+                                }`}
+                            >
                                 <a className="nav-link" href="/subhome">
                                     Play Heads Up
                                 </a>
                             </li>
-                            <li className="nav-item">
+                            <li
+                                className={`nav-item ${
+                                    window.location.pathname === "/subhome" &&
+                                    "underline"
+                                }`}
+                            >
                                 <a className="nav-link" href="/subhome">
                                     Play Sports Booth
                                 </a>
                             </li>
-                            <li className="nav-item">
+                            <li
+                                className={`nav-item ${
+                                    window.location.pathname === "/about" &&
+                                    "underline"
+                                }`}
+                            >
                                 <a className="nav-link" href="/about">
                                     About Us
                                 </a>
-                                <div
-                                    className="dropdown-menu multi-column columns-2"
-                                    aria-labelledby="navbarDropdown"
-                                >
-                                    <div
-                                        className="row"
-                                        style={{ marginRight: "0px" }}
-                                    >
-                                        <div className="col-sm-6 poolTypesColumn">
-                                            <div className="multi-column-head">
-                                                Pool Hosting
-                                            </div>
-                                            <div className="multi-column-dropdown">
-                                                <ul>
-                                                    <li>
-                                                        <a
-                                                            className="dropdown-item"
-                                                            href="#nfl-football-pools.html"
-                                                        >
-                                                            NFL Football Pools
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            className="dropdown-item"
-                                                            href="#march-madness-pools.html"
-                                                        >
-                                                            March Madness Pools
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            className="dropdown-item"
-                                                            href="#Golf/index.html"
-                                                        >
-                                                            PGA Golf Pools
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            className="dropdown-item"
-                                                            href="#baseball-pools.html"
-                                                        >
-                                                            Baseball Pools
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            className="dropdown-item"
-                                                            href="#NHL/index.html"
-                                                        >
-                                                            Hockey Pools
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            className="dropdown-item"
-                                                            href="#College-Football-Pools.html"
-                                                        >
-                                                            College Football
-                                                            Pools
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            className="dropdown-item"
-                                                            href="#olympics-pool-pickem.html"
-                                                        >
-                                                            Olympics Pools
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            className="dropdown-item"
-                                                            href="#fifa-world-cup-soccer-pools.html"
-                                                        >
-                                                            Soccer Pools
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            className="dropdown-item"
-                                                            href="#Academy-Awards-Oscars-pools.html"
-                                                        >
-                                                            Academy Awards Pools
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div className="col-sm-6 solutionsColumn">
-                                            <div className="multi-column-head">
-                                                Solutions
-                                            </div>
-                                            <div className="multi-column-dropdown">
-                                                <ul>
-                                                    <li>
-                                                        <a
-                                                            href="#branding.html"
-                                                            className="dropdown-item"
-                                                        >
-                                                            Pool Branding
-                                                            <div className="solutionText">
-                                                                Customize the
-                                                                user experience
-                                                                to fit with your
-                                                                organization's
-                                                                brand or
-                                                                personal style.
-                                                            </div>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href="#fundraising.html"
-                                                            className="dropdown-item"
-                                                        >
-                                                            Fundraising Ideas
-                                                            <div className="solutionText">
-                                                                Some great ideas
-                                                                on how to use
-                                                                our services to
-                                                                help with your
-                                                                non-profit
-                                                                fundraising.
-                                                            </div>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href="#marketing.html"
-                                                            className="dropdown-item"
-                                                        >
-                                                            Marketing &amp;
-                                                            Promotion
-                                                            <div className="solutionText">
-                                                                Pools provide an
-                                                                exciting way to
-                                                                reach new
-                                                                clients or
-                                                                retain your
-                                                                existing ones.
-                                                            </div>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href="#restaurants-bars.html"
-                                                            className="dropdown-item"
-                                                        >
-                                                            Restaurants &amp;
-                                                            Bars
-                                                            <div className="solutionText">
-                                                                Require your
-                                                                customers to be
-                                                                at your
-                                                                establishment in
-                                                                order to
-                                                                participate.
-                                                            </div>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href="#customSolutions.html"
-                                                            className="dropdown-item"
-                                                        >
-                                                            Custom Solutions
-                                                            <div className="solutionText">
-                                                                If our out of
-                                                                the box service
-                                                                won't work for
-                                                                you, we
-                                                                specialize in
-                                                                custom client
-                                                                solutions.
-                                                            </div>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </li>
-                            <li className="nav-item">
+                            <li
+                                className={`nav-item ${
+                                    window.location.pathname === "/blog" &&
+                                    "underline"
+                                }`}
+                            >
                                 <a className="nav-link" href="#blog/index.html">
                                     Blog
                                 </a>
                             </li>
-                            <li className="nav-item">
+                            <li
+                                className={`nav-item ${
+                                    window.location.pathname === "/support" &&
+                                    "underline"
+                                }`}
+                            >
                                 <a className="nav-link" href="/support">
                                     Support
                                 </a>
