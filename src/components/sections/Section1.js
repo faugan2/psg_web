@@ -2,7 +2,7 @@ import "../../styles/sections/section1.scss";
 import banner from "../img/banner.jpg";
 const Section1 = () => {
     return (
-        <div className="row section1" style={{}}>
+        <div className="row">
             <div className="col-12 col-sm-6">
                 <h1>
                     It’s Time to Pick and Play the Best Pick’em Sports Game!
@@ -15,20 +15,20 @@ const Section1 = () => {
                     profile today.&nbsp;Pick, Play and Enjoy but without the
                     risk!
                 </p>
-                <p>Ready to play? It&rsquo;s Time to Get Pickin&rsquo;!</p>
-                <p>Let&rsquo;s Go</p>
+                <p className="mt-4">
+                    Ready to play? It&rsquo;s Time to Get Pickin&rsquo;!
+                </p>
+                <p className="my-4">Let&rsquo;s Go</p>
                 <hr />
-                <p>
+                <p className="mt-4">
                     ProSport.Guru is a Free-to-play&nbsp;online prediction game.
                     Ramp up the rivalry to challenge your knowledge and witness
                     the most fun fantasy season ever!
                 </p>
-                <p>Play for Free</p>
-                <p>
-                    <a className="btn btn-sm" href="#start_pool/index.html">
-                        Let's Go
-                    </a>
-                </p>
+                <p className="my-4">Play for Free</p>
+                <div className="bg-indianred py-2 px-2.5 rounded-md font-bold w-max cursor-pointer hover:text-black hover:bg-white transition">
+                    <div>Let's Go</div>
+                </div>
             </div>
             <div className="col-12 col-sm-6 col-banner">
                 <a href="#nba-basketball-pools.html" className="banner">
@@ -36,7 +36,7 @@ const Section1 = () => {
                 </a>
             </div>
 
-            <div className="zone2">
+            <div className="zone2 mt-8">
                 <div className="text">
                     ProSport.Guru Pick’em is a Free-to-play{" "}
                     <strong>online prediction game</strong>. Ramp up the rivalry
