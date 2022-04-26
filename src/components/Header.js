@@ -105,16 +105,51 @@ const Header = () => {
                                     Play Sports Booth
                                 </a>
                             </li>
-                            <li
-                                className={`nav-item ${
-                                    window.location.pathname === "/about" &&
-                                    "underline"
-                                }`}
-                            >
-                                <a className="nav-link" href="/about">
+                            <li className="nav-item dropdown">
+                                <a
+                                    className="nav-link dropdown-toggle"
+                                    href="/about"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
                                     About Us
                                 </a>
+                                <div
+                                    className="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                >
+                                    <div
+                                        className="row"
+                                        style={{ marginRight: "0px" }}
+                                    >
+                                        <div className=" poolTypesColumn">
+                                            <div className="multi-column-dropdown">
+                                                <ul>
+                                                    <li className="p-2">
+                                                        <a
+                                                            className="dropdown-item"
+                                                            href="/about"
+                                                        >
+                                                            About Us
+                                                        </a>
+                                                    </li>
+                                                    <li className="p-2">
+                                                        <a
+                                                            className="dropdown-item"
+                                                            href="/advertise"
+                                                        >
+                                                            Advertise With Us
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
+
                             <li
                                 className={`nav-item ${
                                     window.location.pathname === "/blog" &&

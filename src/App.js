@@ -8,6 +8,7 @@ import Contact from "./screens/Contact";
 import Home from "./screens/Home";
 import Splash from "./screens/Splash";
 import SubHome from "./screens/SubHome";
+import Advertise from "./screens/Advertise";
 
 function App() {
     return (
@@ -33,6 +34,9 @@ function App() {
                 </Route>
                 <Route path="/subhome" exact>
                     <SubHome />
+                </Route>
+                <Route path="/advertise" exact>
+                    <Advertise />
                 </Route>
             </Switch>
         </Router>

@@ -12,6 +12,12 @@
             opacity: 80%;
         }
     }
+    .nav-selected {
+        border-bottom: 2px;
+        border-color: white;
+        border-bottom-style: solid;
+        background-color: blue;
+    }
     .logout {
         margin-top: 1rem;
 
