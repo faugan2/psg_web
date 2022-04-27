@@ -14,7 +14,7 @@ const Splash = () => {
             }
         });
     }, [auth]);
-    return <div className="splash">splash</div>;
+    return <div className="splash"></div>;
 };
 
 export default Splash;

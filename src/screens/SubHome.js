@@ -178,17 +178,18 @@ const SubHome = () => {
                     <Content>
                         After signing up, the ProSport.Guru offers you the
                         sign-up bonus of 50 PS.G Crypto coins for free! What are
-                        you waiting for then? - Start signing up and keep on
-                        playing players!
+                        you waiting for then? - <strong>Start signing up and keep on
+                        playing players!</strong>
                     </Content>
                 </Section>
                 <Section title="Are You Ready To Play the Most Exciting Games For Non-Stop Excitement?">
                     <Content>
-                        Are you ready to enjoy the best Pick’em sports game in
+                        Are you ready to enjoy the best Pick’Em sports game in
                         the world? If yes, then Just register for free and join
                         the action. Grab your chance to win exclusive prizes.
                         Our Pick’em game is simple to join, easy to manage yet
-                        fun for everyone! Good luck at the game.
+                        fun for everyone! <br/>
+                        <strong>Good luck at the game.</strong>
                     </Content>
                 </Section>
             </div>

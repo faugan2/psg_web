@@ -23,7 +23,7 @@ const Section3 = () => {
             <div className="col">
                 <a href="#Golf/index.html" className="sport">
                     <i className="fal fa-golf-ball"></i>
-                    <div>Golf</div>
+                    <div>UFC</div>
                 </a>
             </div>
             <div className="col">

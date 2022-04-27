@@ -97,7 +97,7 @@ const Section5 = () => {
 
             <div className="zone2">
                 <div className="text">
-                    Play the #1 pick’em game that’s 100% Free to Win PS.G Crypto
+                    Play the #1 pick’Em game that’s 100% Free to Win PS.G Crypto
                     Coins and Exclusive Merchandise!
                 </div>
                 <div style={{ display: "inline-block" }}>

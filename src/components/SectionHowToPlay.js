@@ -4,7 +4,7 @@ const SectionHowToPlay = () => {
     return (
         <div className="row section_how_to_play" style={{}}>
             <h1 style={{ textAlign: "center", fontSize: "2.2rem" }}>
-                How to Play a ProSportGuru Pick’em Fantasy Sports Game? – It’s
+                How to Play a ProSport.Guru Pick’em Fantasy Sports Game? – It’s
                 Just Pick, Play and Win
             </h1>
             <div className="col-12 col-sm-6">
@@ -21,10 +21,10 @@ const SectionHowToPlay = () => {
                     As the action unfolds, after signing up you can either join
                     the public game or select the desired sports game.
                     ProSport.Guru empowers you with two different playing
-                    options such as Heads up and Sports booth. You can choose
+                    options such as Heads Up and Sports Booth. You can choose
                     either of them to play. Once you pick the desired playing
-                    option you can select any of the games based on most wins or
-                    longest winning streak.
+                    option you can select any of the games based on Most Wins or
+                    Longest Winning Streak.
                 </p>
 
                 <p className="callout">
@@ -33,7 +33,7 @@ const SectionHowToPlay = () => {
                         Tournament
                     </strong>
                     PS.G Players can invite their friends to create their own
-                    challenge for the desired sports mode After inviting your
+                    challenge for the desired sports mode. After inviting your
                     friends you can create your dream team or revamp the rivalry
                     against your friends from anywhere at any time. Once, you
                     invite your friends do not miss out on joining the
